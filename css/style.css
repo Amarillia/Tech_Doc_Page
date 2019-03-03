@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+nav {
+    position: absolute;
+    width: 250px;
+    background: #000;
+    height: 100%;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+nav li {
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header img {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+}
+
+main {
+    position: absolute;
+    margin: 50px 50px 50px 300px;
+}
+
+code {
+    display: block;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+p,
+main li {
+    padding: 25px 0 0 0;
+}
+
+#Introduction h2 {
+    margin-top: 150px;
+}
+
+footer {
+    position: absolute;
+}
+
+/* Form style */
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    #navbar {
+        width: 150px;
+    }
+    main {
+        margin-left: 200px;
+    }
+}
